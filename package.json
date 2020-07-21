@@ -1,0 +1,27 @@
+{
+  "name": "test-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js --exec babel-node",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.15.1",
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "soap": "^0.32.0",
+    "strong-soap": "^2.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "graphql": "^15.3.0",
+    "nodemon": "^2.0.4"
+  }
+}
